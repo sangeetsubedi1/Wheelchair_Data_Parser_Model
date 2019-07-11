@@ -1,5 +1,8 @@
 # Wheelchair_Data_Parser_Model
 
+# model_train_RNN
+After running the data using RNN, it performed far worse than it did with simple NN. Please feel free to edit and find any way to make the accuracy better. Current accuracy is about 59%. However, with simple NN, it is 92%. 
+
 # dataparser.R
 dataparser.R takes in the csv file and converts them into a dataframe of nX11, where n is the number of rows and 11 column in each. column 1:10 are data and column 11 is it's categorical value, for this case, sequence that was in motion will have '1', and rest will have '0'. 
 
